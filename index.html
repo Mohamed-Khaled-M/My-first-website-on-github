@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div id="wrapper">
+    <header>
+      <div class="flex">
+        <div class="logo">
+          <a href="#home">Acme <span>company</span></a>
+        </div>
+        <nav>
+          <button id="nav-toggle" class="burger-menu">
+            <span class="strip"></span>
+            <span class="strip"></span>
+            <span class="strip"></span>
+          </button>
+          <ul id="nav-menu-container">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-image" id="home">
+        <img src="https://onclickwebdesign.com/wp-content/uploads/2019/02/E8A0GT.jpg" alt="">
+        <div class="hero-marketing-bar">
+          <h3>Developing innovative strategies</h3>
+          <h1>Achieving growth</h1>
+        </div>
+      </section>
+
+      <section class="marketing-boxes">
+        <div class="flex">
+          <div class="box hideX-right" id="services">
+            <h2>Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet at animi maxime modi tempora fuga temporibus nesciunt autem ducimus, consequuntur nisi aliquid ut possimus! Quas molestiae nesciunt tempore nisi veritatis.</p>
+            <button>More info</button>
+          </div>
+
+          <div class="box box2 hideY" id="projects">
+            <h2>Projects</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet at animi maxime modi tempora fuga temporibus nesciunt autem ducimus, consequuntur nisi aliquid ut possimus! Quas molestiae nesciunt tempore nisi veritatis.</p>
+            <button>More info</button>
+          </div>
+
+          <div class="box hideX-left" id="clients">
+            <h2>Client</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet at animi maxime modi tempora fuga temporibus nesciunt autem ducimus, consequuntur nisi aliquid ut possimus! Quas molestiae nesciunt tempore nisi veritatis.</p>
+            <button>More info</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-us hideY" id="about">
+        <h1>About us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus molestiae perspiciatis iure velit blanditiis. Excepturi cum illo expedita fuga aspernatur veritatis? Sunt eius libero porro similique repellendus voluptates eveniet dolorem?</p>
+        <br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati ipsum amet quos quo molestias excepturi non eligendi, soluta saepe fuga, incidunt eveniet id mollitia sequi a quidem laboriosam, et nam.</p>
+        <button>Read more</button>
+      </section>
+
+      <section class="contact-us" id="contact">
+        <h1>Contact us</h1>
+        <div class="flex">
+          <div class="map hideX-right">
+            <img src="https://onclickwebdesign.com/wp-content/uploads/2019/02/map.jpg" alt="">
+          </div>
+          <div class="contact-form hideX-left">
+            <address>1234 Evergreen Terrace<br>
+              Chicago, IL 49343<br>
+              info@acmecompany.com<br>
+              Tel: 123-456-7890
+            </address>
+            <form action="">
+              <input type="text" name="name" id="name" placeholder="Name">
+              <input type="email" name="email" id="email" placeholder="Email">
+              <input type="text" name="subject" id="subject" placeholder="Subject">
+              <textarea name="textarea" id="message" placeholder="Type your message here"></textarea>
+              <button>Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="flex">
+        <small>&copy; 2019 ACME Company. Proudly created by OnClick Media.</small>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="https://onclickwebdesign.com/wp-content/uploads/2019/02/facebook_icon.jpg" alt="Facebook" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="https://onclickwebdesign.com/wp-content/uploads/2019/02/twitter_icon.jpg" alt="Facebook" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

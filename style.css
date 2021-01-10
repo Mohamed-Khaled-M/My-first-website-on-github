@@ -1,0 +1,445 @@
+/* global styles rules */
+body {
+  margin: 0;
+  font-family: 'helvetica', 'sens-serif';
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-weight: 300;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.flex {
+  display: flex;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+
+/* Start: header styles */
+header {
+  background-color: #0c3c60;
+  padding: 20px;
+  position: relative;
+  /* position: fixed;
+  width: 100%;
+  z-index: 99; */
+}
+
+header .flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+.logo a:hover {
+  text-decoration: none;
+}
+
+.logo span {
+  color: #7dcac3;
+}
+
+.burger-menu {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 3px 5px;
+  width: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.burger-menu .strip {
+  display: block;
+  height: 1px;
+  background-color: #fff;
+  margin: 4px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: .9rem;
+  margin: 0 12px;
+}
+
+nav ul li a {
+  color: white;
+}
+
+/* End: header styles */
+
+/* Start: hero section styles */
+
+.hero-image {
+  position: relative;
+  max-height: 650px;
+  overflow: hidden;
+  margin-bottom: 90px;
+}
+
+.hero-image img {
+  width: 100%
+}
+
+.hero-marketing-bar {
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, .65);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.hero-marketing-bar h1,
+.hero-marketing-bar h3 {
+  color: #0c3c60;
+}
+
+.hero-marketing-bar h3 {
+  margin-bottom: 10px;
+}
+
+/* End: hero section styles */
+
+/* Start: marketing boxes */
+.marketing-boxes {
+  margin-bottom: 90px;
+}
+
+.marketing-boxes .flex {
+  justify-content: space-between;
+}
+
+.box {
+  background-color: #0c3c60;
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+
+
+.box2 {
+  margin: 0px 30px;
+}
+
+.box h2 {
+  margin-bottom: 25px;
+  color: #cbe0eb;
+}
+
+.box p {
+  line-height: 1.5rem;
+  margin-bottom: 40px;
+  font-size: 0.85rem;
+}
+
+.box button {
+  background-color: #6ea4ca;
+  border: none;
+  padding: 8px 30px;
+  color: white;
+  font-size: 1.25rem;
+}
+
+/* End: marketing boxes */
+
+/* Start: about us section */
+.about-us {
+  background-color: #d1e0eb;
+  color: #0c3c60;
+  text-align: center;
+  padding: 75px 10px 60px;
+}
+
+.about-us h1 {
+  margin-bottom: 50px;
+}
+
+.about-us p {
+  max-width: 640px;
+  font-size: 0.85rem;
+  margin: 0 auto 80px;
+  line-height: 1.5rem;
+}
+
+.about-us button {
+  background-color: #0c3c60;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 8px 30px;
+}
+
+/* End: about us section */
+
+/* Start: contact us styles */
+.contact-us {
+  background-color: #0c3c60;
+  padding: 75px 0px 60px;
+}
+
+.contact-us h1 {
+  color: white;
+  margin-bottom: 50px;
+}
+
+.contact-us .flex {
+  justify-content: space-between;
+  max-width: 900px;
+}
+
+.map {
+  width: 450px;
+  height: 400px;
+  padding-left: 10px;
+}
+
+.contact-form {
+  width: 400px;
+  padding: 0px 10px 0px 40px;
+}
+
+.contact-form address {
+  color: white;
+  font-size: 1.05rem;
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  margin: 0px 0px 20px;
+  padding: 8px 12px;
+  color: #597db5;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 110px;
+}
+
+.contact-form button {
+  background-color: #6ea4ca;
+  border: none;
+  color: white;
+  padding: 8px 40px;
+  float: right;
+  font-size: 1rem;
+}
+
+input::placeholder {
+  color: #597db5;
+}
+
+/* End: contact us styles */
+
+/* Start footer styles */
+
+footer {
+  background-color: #0c3c60;
+  padding: 75px 10px 60px;
+  color: white;
+}
+
+footer .flex {
+  max-width: 900px;
+  justify-content: space-between;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* End footer styles */
+
+/* Start media queries */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .flex {
+    display: block;
+  }
+
+  .box {
+    width: 100%;
+    margin: 40px 0;
+    box-sizing: border-box;
+  }
+
+  .map {
+    width: 90%;
+    height: 300px;
+    margin: 0px auto 60px;
+    text-align: center;
+  }
+
+  .map img {
+    height: 100%;
+  }
+
+  .contact-form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer ul {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 651px) {
+  nav ul {
+    display: block !important;
+  }
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 0.9rem;
+  }
+
+  nav ul {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #0c3c60;
+    top: 100%;
+    z-index: 3;
+    width: 100%;
+  }
+
+  nav ul li {
+    display: block;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 15px 0px 5px;
+    border-top: 1px solid white;
+  }
+
+  nav ul li a {
+    font-size: 1.5rem;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .hero-marketing-bar {
+    padding: 15px 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 0.75rem;
+  }
+
+  .hero-marketing-bar {
+    position: static;
+  }
+}
+
+.box,
+.map,
+.contact-form,
+.about-us {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all .5s ease-in;
+}
+
+.hideY {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.hideX-left {
+  opacity: 0;
+  transform: translateX(50px)
+}
+
+.hideX-right {
+  opacity: 0;
+  transform: translateX(-50px)
+}
